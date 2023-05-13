@@ -30,3 +30,18 @@ h1, h2, h3, h4, h5, h6, a, label{
 }
 
 /* image */
+
+/* cards */
+.card{
+    border: none !important;
+}
+.card:hover{
+background: #828af7;
+}
+/* lists */
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
