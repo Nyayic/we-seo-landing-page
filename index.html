@@ -7,13 +7,15 @@
     <title>WeSEO | SEO Agency</title>
     <!-- booststrap -->
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
     <!-- custom styles -->
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 <body>
     <div class="container-fluid p-0 bg-light">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
             data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" 
@@ -26,19 +28,19 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about-us">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Services</a>
+                <a class="nav-link" href="#services">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link" href="#blog">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact">Contact Us</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -49,7 +51,7 @@
     </nav>
     <!-- navbar ends -->
     <!-- hero -->
-    <div class="container py-5">
+    <div class="container py-5" id="home">
         <div class="row py-5">
             <div class="col-md-6 py-5">
                 <h1 class="display-4 fw-bold">Boost Your Online <span class="text-primary">Presence.</span></h1>
@@ -95,7 +97,7 @@
     <!-- trusted partners ends -->
 
     <!-- about section -->
-    <div class="container py-5" id="#about-us">
+    <div class="container py-5" id="about-us">
         <div class="row">
             <div class="col-md-6 py-5">
                 <h2 class="display-4 fw-bold">About Us</h2>
@@ -115,7 +117,7 @@
         </div>
     </div>
     <!-- service section cards -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5" id="services">
         <div class="container">
             <div class="row text-center">
                 <h1 class="display-4 fw-bold">Our <span class="text-primary">Services.</span></h1>
@@ -166,7 +168,7 @@
         </div>
     </div>
     <!-- blog section -->
-    <div class="container-fluid bg-light py-5">
+    <div class="container-fluid bg-light py-5" id="blog">
         <div class="container">
             <div class="row text-center">
                 <h1 class="display-4 fw-bold mb-4">Our <span class="text-primary">Blogs.</span></h1>
@@ -204,7 +206,7 @@
         </div>
     </div>
     <!-- contact us section -->
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5"id="contact">
         <div class="container">
             <div class="row ">
                 <h1 class="display-4 text-center fw-bold py-4">Contact <span class="text-primary">Us.</span></h1>
@@ -250,10 +252,10 @@
                 <div class="col-md-4 py-5">
                     <h4 class="display-4 fw-bold">Follow Us</h4>
                     <ul>                        
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Instagram</a></li>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Twitter</a></li>
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>YouTube</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
                     </ul>
                 </div>
             </div>
@@ -264,5 +266,6 @@
     </footer>
     <!-- scripts -->
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/fontawesome/js/all.min.js"></script>
 </body>
 </html>
